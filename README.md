@@ -22,4 +22,7 @@ python3 manage.py runserver
 #### To create an app products
 python3 manage.py startapp products
 
+### View functions gets called when a user goes to a particular page (/products, /offer)
+### to map a url to a function make a urls.py file in your app folder
+### views.py -> urls.py  (maps to)
 
