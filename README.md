@@ -26,3 +26,15 @@ python3 manage.py startapp products
 ### to map a url to a function make a urls.py file in your app folder
 ### views.py -> urls.py  (maps to)
 
+### Creating a model in django app
+
+### Making a migration (before this add the path of your models.py class in settings.py)
+python3 manage.py makemigrations
+
+### Migrating our app (Creates a database for the app)
+python3 manage.py migrate
+
+#### Creating 1st user (superuser) 
+python3 manage.py createsuperuser
+
+
